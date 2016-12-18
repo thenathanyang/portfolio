@@ -4,7 +4,7 @@
     "location" : "University of California, Los Angeles",
     "projects" : ["CS 31", "CS 32", "CS 35L"],
     "description" : "UCLA Computer Science work.",
-    "poster" : "ucla_cs_poster.png",
+    "poster" : "ucla1.JPG",
     "banner" : "ucla_cs_banner.jpg"
   },
 
@@ -13,8 +13,8 @@
     "location" : "University of Pennsylvania",
     "projects" : ["Minigame", "DNA"],
     "description" : "SAAST at Penn work.",
-    "poster" : "saast_poster.png",
-    "banner" : "saast_banner.jpg"
+    "poster" : "saast4.JPG",
+    "banner" : "saast3.jpg"
   },
 
   {
@@ -22,8 +22,8 @@
     "location" : "Various Locations",
     "projects" : ["LoginApp", "StudyUp", "Phoemo", "Simple Calculator"],
     "description" : "Personal and hackathon projects.",
-    "poster" : "personal_hack_poster.png",
-    "banner" : "personal_hack_banner.jpg"
+    "poster" : "la-hacks-4.JPG",
+    "banner" : "la-hacks-1.JPG"
   }]
 
 }

@@ -1,7 +1,13 @@
+var workJSON = require('../work.json');
+
 // Index
 exports.index = function(req, res) {
+
+	var work = workJSON.work;
+
 	res.render('index', {
-		title : "Nathan Yang's Portfolio"
+		title : "Nathan Yang's Portfolio",
+		work: work
 	});
 };
 
