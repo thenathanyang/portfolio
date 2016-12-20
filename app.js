@@ -22,8 +22,12 @@ app.get('/projects/:project_name?', routes.project_single);
 app.get('*', routes.notFound);
 
 
+const port = process.env.PORT || 3000;
 
+// app.listen(3000, function() {
+// 	console.log("Application running on port 3000")
+// });
 
-app.listen(3000, function() {
-	console.log("Application running on port 3000")
-});
+app.listen(port, () => {
+  console.log('Application running on port', port);
+})
