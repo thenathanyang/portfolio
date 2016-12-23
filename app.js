@@ -15,8 +15,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Index
 app.get('/', routes.index);
 
-// Single Project
-app.get('/projects/:project_name?', routes.project_single);
+// Single Work/Project
+app.get('/work/:work_name?', routes.work_single);
 
 // Not Found
 app.get('*', routes.notFound);
@@ -31,4 +31,3 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log('Application running on port', port);
 });
-

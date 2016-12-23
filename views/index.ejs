@@ -19,13 +19,15 @@
 		<p style="text-align:center; font-size: 15px;">Download my <a href="/files/nathanyang-resume.pdf" download>resume</a>, connect with me on <a target="_blank" href="https://www.linkedin.com/in/thenathanyang">LinkedIn</a>, or visit my <a target="_blank" href="https://github.com/thenathanyang">GitHub</a>.</p>
 
 		<div id="posters-wrapper" class="content-padding clearfix">
-			<% for (var i = 0; i < work.length; i++) { %>
+			<% for (var i = 0; i < workArr.length; i++) { %>
 				<div class="poster">
-					<img src="/images/<%= work[i].poster %>" class="img-responsive">
-					<div class="poster-info-overlay">
-						<h3><%= work[i].title %></h3>
-						<h4>View More<i class="fa fa-arrow-right"></i></h4>
-					</div>
+					<a href="/work/<%= workArr[i].url %>">
+						<img src="/images/<%= workArr[i].poster %>" class="img-responsive">
+						<div class="poster-info-overlay">
+							<h3><%= workArr[i].title %></h3>
+							<h4>View More<i class="fa fa-arrow-right"></i></h4>
+						</div>
+					</a>
 				</div>
 			<% } %>
 		</div>

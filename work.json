@@ -1,6 +1,7 @@
 {
   "work": [{
     "title" : "UCLA Computer Science",
+    "url" : "ucla-cs",
     "location" : "University of California, Los Angeles",
     "projects" : ["CS 31", "CS 32", "CS 35L"],
     "description" : "UCLA Computer Science work.",
@@ -10,20 +11,21 @@
 
   {
     "title" : "Summer Academy in Applied Science and Technology",
+    "url" : "saast",
     "location" : "University of Pennsylvania",
     "projects" : ["Minigame", "DNA"],
-    "description" : "SAAST at Penn work.",
+    "description" : "SAAST at Penn work. More asdas das dasda sdas da da sda sda sda sdas das d ",
     "poster" : "saast4.JPG",
     "banner" : "saast3.jpg"
   },
 
   {
     "title" : "Personal Projects and Hackathons",
+    "url" : "personal",
     "location" : "Various Locations",
     "projects" : ["LoginApp", "StudyUp", "Phoemo", "Simple Calculator"],
     "description" : "Personal and hackathon projects.",
     "poster" : "la-hacks-4.JPG",
     "banner" : "la-hacks-1.JPG"
   }]
-
 }

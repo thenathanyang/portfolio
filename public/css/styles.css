@@ -222,7 +222,7 @@ Work-Single Banner Image and Title Styles
 ------------------------------------------ */
 
 #banner-image-single {
-	height: 550px;
+	height: 450px;		/* 550px */
 	width: 100%;
 	background-color: #444;
 	background-size: cover;
@@ -303,7 +303,7 @@ Work-Single Poster and Description Styles
 	margin-bottom: 25px;
 }
 
-.main-characters ul li {
+.projects ul li {
 	display: inline-block;
 	list-style: none;
 	margin-right: 40px;
@@ -312,7 +312,7 @@ Work-Single Poster and Description Styles
 	font-size: 13px;
 }
 
-.main-characters ul {
+.projects ul {
 	padding-left: 0px;
 }
 
@@ -460,7 +460,7 @@ Page Not Found Template Styles
 -------------------------------- */
 
 #banner-image-notFound {
-	height: 550px;
+	height: 450px;		/* 550px */
 	width: 100%;
 	background-color: #444;
 	background-image: url('../images/404.jpg');
