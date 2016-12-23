@@ -48,11 +48,21 @@ exports.work_single = function(req, res) {
 		});
 	}
 	else
-		res.send("Nope")
+	{
+		res.render('notFound', {
+			workArr : workArr,
+			title : "Page Not Found"
+		});
+	}
 	
 };
 
 // Not Found
 exports.notFound = function(req, res) {
-	res.send("Page not found.")
+	var workArr = workJSON.work;
+
+	res.render('notFound', {
+		workArr : workArr,
+		title : "Page Not Found"
+	});
 };
