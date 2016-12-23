@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<% include partials/head.ejs %>
+	</head>
+
+	<body>
+		<!-- <h1>Nathan Yang</h1>
+		<p>President of Hacker Fund's LA Mentor Chapter</p>
+		<p>Computer Science Student at UCLA</p> -->
+
+		<% include partials/header.ejs %>
+
+		<div id="banner-image-single" style="background-image: url('/images/<%= workVal.banner %>')">
+			<h1 id="banner-title"><%= title %></h1>
+		</div>
+
+		<div class="content-padding clearfix">
+			<div class="poster-wrapper">
+				<img src="/images/<%= workVal.poster %>" class="img-responsive">
+			</div>
+		
+
+			<div class="description-wrapper">
+				<div class="description">
+					<h2 class="work-header">Description</h2>
+					<p><%= workVal.description %></p>
+				</div>
+
+				<div class="projects">
+					<h2 class="work-header">Projects</h2>
+					<ul>
+						<% for (var i = 0; i < projects.length; i++) { %>
+							<li><%= projects[i] %></li>
+						<% } %>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<% include partials/scripts.ejs %>
+	</body>
+</html>
