@@ -15,6 +15,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Index
 app.get('/', routes.index);
 
+// Not Found
+app.get('/about', routes.about);
+
 // Single Work/Project
 app.get('/work/:work_name?', routes.work_single);
 

@@ -123,12 +123,13 @@ Home Page Posters Styles
 /* Poster Overlay Styles */
 .poster-info-overlay {
 	position: absolute;
-	background: rgba(0,0,0,0.7);	
+	background: rgba(0,0,0,0.7);
 	bottom: 0;
 	left: 0;
+	right: 0;
 	opacity: 0;
 	transition: 0.5s ease-in-out;
-	padding: 30px 15px;
+	padding: 30px 20px; /* 30px 15px*/
 }
 .poster-info-overlay h3 {
 	text-transform: uppercase;
@@ -179,6 +180,7 @@ footer p {
 	letter-spacing: 0.3px;
 	font-size: 12px;
 	padding-bottom: 20px;
+	margin-left: 20px; 		/* May not be necessary */
 }
 
 footer .social-media-icons {
@@ -191,18 +193,30 @@ footer .social-media-icons i {
 	transition: 0.5s ease-in-out;
 }
 
-footer .social-media-icons a:first-child {
+footer .social-media-icons a /*:first-child*/ {
 	margin-right: 20px;
 }
+
+/*
+footer #linkedin-icon a:hover i {
+	color: #0077B5;
+}
+
+footer #github-icon a:hover i {
+	color: #333;
+}*/
 
 footer .social-media-icons a:first-child:hover i {
 	color: #0077B5;
 }
 
-footer .social-media-icons a:last-child:hover i {
+footer .social-media-icons a:nth-child(2):hover i {
 	color: #333;
 }
 
+footer .social-media-icons a:last-child:hover i {
+	color: #8a3ab9;
+}
 
 
 

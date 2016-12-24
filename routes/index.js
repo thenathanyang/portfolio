@@ -11,6 +11,17 @@ exports.index = function(req, res) {
 	});
 };
 
+// About page
+exports.about = function(req, res) {
+
+	var workArr = workJSON.work;				// Array of work
+
+	res.render('about', {
+		title : "Meet Nathan Yang",
+		workArr : workArr
+	});
+};
+
 // Single Work/Project
 exports.work_single = function(req, res) {
 
