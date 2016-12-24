@@ -195,11 +195,11 @@ footer .social-media-icons a:first-child {
 	margin-right: 20px;
 }
 
-footer .social-media-icons a:last-child:hover i {
-	color: #af0b0c;
+footer .social-media-icons a:first-child:hover i {
+	color: #0077B5;
 }
 
-footer .social-media-icons a:first-child:hover i {
+footer .social-media-icons a:last-child:hover i {
 	color: #333;
 }
 
