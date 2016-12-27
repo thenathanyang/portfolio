@@ -15,11 +15,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Index
 app.get('/', routes.index);
 
-// Not Found
+// About
 app.get('/about', routes.about);
 
 // Single Work/Project
 app.get('/work/:work_name?', routes.work_single);
+
+// Contact
+app.get('/contact', routes.contact);
 
 // Not Found
 app.get('*', routes.notFound);

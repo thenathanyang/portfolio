@@ -30,23 +30,23 @@ exports.work_single = function(req, res) {
 	var canRender = false;
 	var workVal;
 	
-	if (work_name == "ucla-cs")
+	if (work_name === "ucla-cs")
 	{
 		workVal = workArr[0];
 		canRender = true;
 	}
-	else if (work_name == "saast")
+	else if (work_name === "saast")
 	{
 		workVal = workArr[1];
 		canRender = true;
 	}
-	else if (work_name == "personal")
+	else if (work_name === "personal")
 	{
 		workVal = workArr[2];
 		canRender = true;
 	}
 
-	if (canRender == true)
+	if (canRender === true)
 	{
 		var title = workVal.title;
 		var projects = workVal.projects;
@@ -66,6 +66,16 @@ exports.work_single = function(req, res) {
 		});
 	}
 	
+};
+
+// Contact
+exports.contact = function(req, res) {
+	var workArr = workJSON.work;				// Array of work
+
+	res.render('contact', {
+		title : "Contact Nathan Yang",
+		workArr : workArr
+	});
 };
 
 // Not Found

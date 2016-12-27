@@ -331,7 +331,16 @@ Work-Single Poster and Description Styles
 }
 
 
+/* ---------------------------------------
+Contact Page
+------------------------------------------ */
 
+.description-wrapper-contact {
+	float: left;
+	/* margin-left: 5%; */
+	width: 65%;
+	margin-top: 50px;
+}
 
 
 /* -----------------------------
