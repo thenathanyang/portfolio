@@ -206,15 +206,15 @@ footer #github-icon a:hover i {
 	color: #333;
 }*/
 
-footer .social-media-icons a:first-child:hover i {
+footer .social-media-icons a:first-child:hover i {		/* LinkedIn Icon*/
 	color: #0077B5;
 }
 
-footer .social-media-icons a:nth-child(2):hover i {
-	color: #333;
+footer .social-media-icons a:nth-child(2):hover i {		/* GitHub Icon */
+	color: black;
 }
 
-footer .social-media-icons a:last-child:hover i {
+footer .social-media-icons a:last-child:hover i {		/* Instagram Icon */
 	color: #8a3ab9;
 }
 
@@ -541,6 +541,7 @@ Social Media Icons
   bottom: 0;
   left: 0;
   right: 0;
+  margin-bottom: 80px;
 }
 
 .social-button {
@@ -555,9 +556,10 @@ Social Media Icons
   overflow: hidden;
   opacity: .99;
   border-radius: 28%;
-  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  margin-bottom: 10px;
 }
 .social-button:before {
   content: '';
@@ -580,36 +582,31 @@ Social Media Icons
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
 }
-.social-button.facebook:before {
-  background-color: #3B5998;
+.social-button.linkedin:before {
+  background-color: #0077B5;
 }
-.social-button.facebook .fa {
-  color: #3B5998;
+.social-button.linkedin .fa {
+  color: #0077B5;
 }
-.social-button.twitter:before {
-  background-color: #3CF;
+.social-button.github:before {
+  background-color: black;
 }
-.social-button.twitter .fa {
-  color: #3CF;
+.social-button.github .fa {
+  color: black;
 }
-.social-button.google:before {
-  background-color: #DC4A38;
+.social-button.instagram:before {
+  background-color: #8a3ab9;
 }
-.social-button.google .fa {
-  color: #DC4A38;
+.social-button.instagram .fa {
+  color: #8a3ab9;
 }
-.social-button.dribbble:before {
-  background-color: #F26798;
+.social-button.mail:before {
+  background-color: #F57C00;
 }
-.social-button.dribbble .fa {
-  color: #F26798;
+.social-button.mail .fa {
+  color: #F57C00;
 }
-.social-button.skype:before {
-  background-color: #00AFF0;
-}
-.social-button.skype .fa {
-  color: #00AFF0;
-}
+
 .social-button:focus:before, .social-button:hover:before {
   top: -10%;
   left: -10%;
