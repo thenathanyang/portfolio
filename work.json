@@ -6,17 +6,19 @@
     "projects" : ["CS 31", "CS 32", "CS 35L"],
     "description" : "UCLA Computer Science work.",
     "poster" : "ucla1.JPG",
-    "banner" : "ucla_cs_banner.jpg"
+    "banner" : "ucla_cs_banner.jpg",
+    "links" : ["https://github.com/thenathanyang/UCLA", "https://github.com/thenathanyang/UCLA", "https://github.com/thenathanyang/UCLA"]
   },
 
   {
     "title" : "Summer Academy in Applied Science and Technology",
     "url" : "saast",
     "location" : "University of Pennsylvania",
-    "projects" : ["Minigame", "DNA"],
+    "projects" : ["DNA", "ISBN", "Minigame", "Sierpinski Triangle"],
     "description" : "SAAST at Penn work.",
     "poster" : "saast4.JPG",
-    "banner" : "saast3.jpg"
+    "banner" : "saast3.jpg",
+    "links" : ["https://github.com/thenathanyang/SAAST/tree/master/dna", "https://github.com/thenathanyang/SAAST/tree/master/isbn", "https://github.com/thenathanyang/SAAST/tree/master/minigame", "https://github.com/thenathanyang/SAAST/tree/master/sierpinski-triangle"]
   },
 
   {
@@ -26,6 +28,7 @@
     "projects" : ["LoginApp", "StudyUp", "Phoemo", "Simple Calculator"],
     "description" : "Personal and hackathon projects.",
     "poster" : "la-hacks-4.JPG",
-    "banner" : "la-hacks-1.JPG"
+    "banner" : "la-hacks-1.JPG",
+    "links" : ["https://github.com/thenathanyang/loginapp", "https://github.com/thenathanyang/StudyUp", "https://devpost.com/software/217-phoemo", "https://github.com/thenathanyang"]
   }]
 }

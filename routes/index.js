@@ -50,12 +50,14 @@ exports.work_single = function(req, res) {
 	{
 		var title = workVal.title;
 		var projects = workVal.projects;
+		var links = workVal.links;
 
 		res.render('work_single', {
 			workArr : workArr,
 			workVal : workVal,
 			title : title,
-			projects : projects
+			projects : projects,
+			links : links
 		});
 	}
 	else
