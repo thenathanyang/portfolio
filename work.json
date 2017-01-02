@@ -15,7 +15,7 @@
     "url" : "saast",
     "location" : "University of Pennsylvania",
     "projects" : ["DNA", "ISBN", "Minigame", "Sierpinski Triangle"],
-    "description" : "SAAST at Penn work.",
+    "description" : "During the summer of 2014, I spent three weeks in Philadelphia, Pennsylvania at the University of Pensylvania's Summer Academy in Applied Science and Technology (SAAST). At SAAST's computer science program, I was introduced to principles of computer science by studying computational thinking and learning how to program in Python. Throughout the program, I completed various assignments and projects. Unfortunately, I switched computers the year after and lost a decent amount of my code. Some of the projects I was able to find from my time at SAAST are shown below. SAAST has changed its name and is currently known as the Engineering Summer Academy at Penn (ESAP).",
     "poster" : "saast4.JPG",
     "banner" : "saast3.jpg",
     "links" : ["https://github.com/thenathanyang/SAAST/tree/master/dna", "https://github.com/thenathanyang/SAAST/tree/master/isbn", "https://github.com/thenathanyang/SAAST/tree/master/minigame", "https://github.com/thenathanyang/SAAST/tree/master/sierpinski-triangle"]
