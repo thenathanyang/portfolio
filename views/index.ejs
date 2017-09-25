@@ -12,14 +12,14 @@
 		<% include partials/header.ejs %>
 
 		<div id="banner-image">
-			<h1 id="banner-title"><%= title %></h1>
+			<h1 id="banner-title">Hello! My name is Nathan Yang!</h1>
 		</div>
 
 		<p style="text-align:center; font-size: 15px; padding-top: 30px;">Please note that this website is still under contruction.</p>
 		<p style="text-align:center; font-size: 15px; margin-bottom: -25px;">Feel free to learn <a href="/about">about me</a>, view my <a target="_blank" href="/files/nathanyang-resume.pdf">resume</a>, visit my <a target="_blank" href="https://github.com/thenathanyang">GitHub</a>, or <a href="/contact">connect</a> with me.</p>
 
 		<div id="posters-wrapper" class="content-padding clearfix">
-			<% for (var i = 0; i < workArr.length; i++) { %>
+<!-- 			<% for (var i = 0; i < workArr.length; i++) { %>
 				<div class="poster">
 					<a href="/work/<%= workArr[i].url %>">
 						<img src="/images/<%= workArr[i].poster %>" class="img-responsive">
@@ -29,7 +29,36 @@
 						</div>
 					</a>
 				</div>
-			<% } %>
+			<% } %> -->
+			<div class="poster">
+				<a href="/work/ucla-cs">
+					<img src="/images/ucla1.JPG" class="img-responsive">
+					<div class="poster-info-overlay">
+						<h3>UCLA Computer Science</h3>
+						<h4>View More<i class="fa fa-arrow-right"></i></h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="poster">
+				<a href="/work/personal">
+					<img src="/images/la-hacks-4.JPG" class="img-responsive">
+					<div class="poster-info-overlay">
+						<h3>Personal Projects and Hackathons</h3>
+						<h4>View More<i class="fa fa-arrow-right"></i></h4>
+					</div>
+				</a>
+			</div>
+
+			<div class="poster">
+				<a target="_blank" href="https://medium.com/@nathan_yang">
+					<img src="/images/saast4.JPG" class="img-responsive">
+					<div class="poster-info-overlay">
+						<h3>Medium</h3>
+						<h4>View Stories<i class="fa fa-arrow-right"></i></h4>
+					</div>
+				</a>
+			</div>
 		</div>
 
 		<% include partials/footer.ejs %>

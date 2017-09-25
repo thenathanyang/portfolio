@@ -6,7 +6,7 @@ exports.index = function(req, res) {
 	var workArr = workJSON.work;				// Array of work
 
 	res.render('index', {
-		title : "Nathan Yang's Portfolio",
+		title : "Nathan Yang",
 		workArr : workArr
 	});
 };
@@ -35,14 +35,9 @@ exports.work_single = function(req, res) {
 		workVal = workArr[0];
 		canRender = true;
 	}
-	else if (work_name === "saast")
-	{
-		workVal = workArr[1];
-		canRender = true;
-	}
 	else if (work_name === "personal")
 	{
-		workVal = workArr[2];
+		workVal = workArr[1];
 		canRender = true;
 	}
 
